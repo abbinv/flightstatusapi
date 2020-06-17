@@ -5,8 +5,7 @@ A micro api to test other applications.. ;)
 ## Installation
 
 Run the FlightstatusApplication.java  as a springboot application and you are ready to go.
-
-It contains below statuses on start up, you can add, or update using a POST call.
+It contains below statuses on start up. 
 
 ```
 [
@@ -33,9 +32,10 @@ It contains below statuses on start up, you can add, or update using a POST call
 ]
 
 ```
+You can add or update more statusess using a POST call. Retrieve status using a GET call using flightNumber
 
 
-###### GET http://localhost:8080/KL1111
+######Retrieve Status -  GET http://localhost:8080/KL1111
 ```
 
 Expected respose 
@@ -47,7 +47,7 @@ Expected respose
 ```
 
 
-###### POST http://localhost:8080/KL1111
+######Add/Update Status -  POST http://localhost:8080/KL8888
 
 ```
 Request body = 
