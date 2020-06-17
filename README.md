@@ -35,7 +35,7 @@ It contains below statuses on start up.
 You can add or update more statusess using a POST call. Retrieve status using a GET call using flightNumber
 
 
-######Retrieve Status -  GET http://localhost:8080/KL1111
+###### Retrieve Status -  GET http://localhost:8080/KL1111
 ```
 
 Expected respose 
@@ -47,7 +47,7 @@ Expected respose
 ```
 
 
-######Add/Update Status -  POST http://localhost:8080/KL8888
+###### Add/Update Status -  POST http://localhost:8080/KL8888
 
 ```
 Request body = 
