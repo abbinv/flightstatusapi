@@ -35,7 +35,8 @@ It contains below statuses on start up, you can add, or update using a POST call
 ```
 
 
-GET http://localhost:8080/KL1111
+###### GET http://localhost:8080/KL1111
+```
 
 Expected respose 
 {
@@ -49,12 +50,13 @@ Expected respose
 ###### POST http://localhost:8080/KL1111
 
 ```
+Request body = 
 {
     "flightNumber": "KL8888",
     "status": "DEPARTED"
 }
 
-Expected respose 
+Expected response 
 {
     "flightNumber": "KL8888",
     "status": "DEPARTED"
