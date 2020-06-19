@@ -1,0 +1,7 @@
+version: '3'
+services:
+  azure-vote-back:
+    image: fsapp
+    container_name: fsapp
+    ports:
+      - "8080:8080"
